@@ -12,10 +12,39 @@ body {
     color: #333;
 }
 
+.dog { text-align: center;
+     margin-bottom: 30px; }
+
+ .dog img { width: 500px;
+     height: 400px;
+      object-fit: cover; }
+
+ .dog h3 { margin-top: 20px;
+     margin-bottom: 8px; }
+
+  .dog p { margin: 0;
+     font-size: 18px; }
+
+.cat { text-align: center;
+     margin-bottom: 30px; }
+
+ .cat img { width: 420px;
+     height: 400px;
+      object-fit: cover; }
+
+ .cat h3 { margin-top: 20px;
+     margin-bottom: 8px; }
+
+  .cat p { margin: 0;
+     font-size: 18px; }
 
 
 
-
+footer {
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+}
 .navbar {
     width: 100%;
     padding: 18px 8%;
