@@ -31,7 +31,12 @@ button4.onmouseover=function(){
 }
 
 var button5=document.getElementById("btn5")
+var button6=document.getElementById("btn6")
 var text=document.getElementById('txt1')
+var text=document.getElementById("clear")
+btn6.onclick=function(){
+    text.setAttribute("class","hide")
+}
 
 button5.onclick=function(){
     text.style.color='red';
