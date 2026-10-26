@@ -34,3 +34,4 @@ console.log(s2)
 var places=['London','Paris','France','New York']
 var[firstPLace, secondPlace]=places
 console.log(secondPlace)
+
