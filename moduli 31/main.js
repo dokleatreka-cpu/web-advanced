@@ -33,3 +33,50 @@ for(x in person){
 
 
 console.log(text3)
+
+ var students=['Olt','Dion','Tian']
+var y;
+
+for(y of person){
+    document.write(y,"<br>")
+}
+
+var txt=('Dokleat')
+var o;
+for(o of txt){
+    // console.log(x)
+
+    document.write(x + "<br>")
+}
+
+let n = 0;
+
+do{
+   n+=1;
+   console.log(n)   
+}while (n<5)
+
+let e=0;
+let r=0;
+
+while(e<3){
+    e++
+    r+=e
+}
+
+console.log(e)
+console.log(e)
+
+var ekip=['Real madrid','Barcelona','Arsenal'];
+var q;
+var text2 = "  ";
+for(q=0;q<ekip.length;q++){
+    console.log(cars[q])
+}
+
+
+
+
+
+
+
