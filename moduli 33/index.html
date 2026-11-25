@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form onsubmit="return validation()" method="POST">
+
+        <div class="name-container">
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name">
+            <span id="name_error">Please enter a valid name</span>
+        </div>
+
+        <button type="submit" name="submit">Send</button>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
